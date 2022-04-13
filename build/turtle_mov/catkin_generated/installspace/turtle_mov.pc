@@ -1,0 +1,8 @@
+prefix=/home/elio987/ROS_listener_talker_turtle/install
+
+Name: turtle_mov
+Description: Description of turtle_mov
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

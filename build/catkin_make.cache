@@ -1,0 +1,2 @@
+talker_listener:turtle_mov
+-DCATKIN_DEVEL_PREFIX=/home/elio987/ROS_listener_talker_turtle/devel -DCMAKE_INSTALL_PREFIX=/home/elio987/ROS_listener_talker_turtle/install -G Unix Makefiles
