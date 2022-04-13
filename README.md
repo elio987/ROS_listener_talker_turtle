@@ -1,5 +1,5 @@
 # ROS_listener_talker_turtle
-Proyecto en el que se usa ROS melodic en ubuntu 18.04, para poder hacer un ejercicioo basico de comunicar dos nodos, además de controlar la tortuga de ROS, todo por medio de Python.
+Proyecto en el que se usa ROS melodic en ubuntu 18.04, para poder hacer un ejercicio básico de comunicar dos nodos, además de controlar la tortuga de ROS, todo por medio de Python.
 - Al hacer el git clone del repositorio habre una terminal y ve hasta la carpeta llamcada ROS_listener_talker_turtle en ingresa este comando:
 ```
 catkin_make
