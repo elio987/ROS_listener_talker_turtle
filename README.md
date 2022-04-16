@@ -55,7 +55,7 @@ Se debe ver lo siguiente:
 /nombre_de_tu_ws/src/turtle_mov/src/turtle_mov.py
 ```
 
-- Para poder correr la tortuga en espiral, ingresa el sigueinte comando en una nueva terminal:
+- Para poder correr la tortuga en espiral, ingresa el siguiente comando en una nueva terminal:
 ```
 rosrun turtlesim turtlesim_node
 ```
@@ -72,7 +72,7 @@ rosrun turtle_mov turtle_mov.py
 rosservice call /reset
 ```
 ## Nota importante:
-Cada vez que habras un terminal ingresa el sigueinte comando a la altura de la carpeta de tu worspace de ROS:
+Cada vez que abras un terminal ingresa el siguiente comando a la altura de la carpeta de tu worspace de ROS:
 ```
 source devel/setup.bash
 ```
