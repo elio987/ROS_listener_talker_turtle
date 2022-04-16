@@ -52,11 +52,10 @@ Se debe ver lo siguiente:
 ## Trutle espiral
 - Localidad del archivo para poder mover la tortuga
 ```
+/nombre_de_tu_ws/src/talker_listener/src/
 /nombre_de_tu_ws/src/turtle_mov/src/turtle_mov.py
 ```
-```
-/nombre_de_tu_ws/src/talker_listener/src/
-```
+
 - Para poder correr la tortuga en espiral, ingresa el sigueinte comando en una nueva terminal:
 ```
 rosrun turtlesim turtlesim_node
