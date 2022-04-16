@@ -1,14 +1,28 @@
 # ROS_listener_talker_turtle
 Proyecto en el que se usa ROS melodic en ubuntu 18.04, para poder hacer un ejercicio básico de comunicar dos nodos, además de controlar la tortuga de ROS, todo por medio de Python.
-- Al hacer el git clone del repositorio habre una terminal y ve hasta la carpeta llamcada ROS_listener_talker_turtle en ingresa este comando:
+Como en este caso si bajas todo el repositirio y tratas de compilarlo este no va compilar, lo que debes hacer es crear una carpeta con el nombre de tu work space y dentro de esa carpeta crear otra llamada src.
+- Al hacer esto, a la altura de la carpeta de tu workspace ingresa el sigueinte comando
 ```
 catkin_make
 ```
-- Después de hacer el git clone del repositorio, haber guardado el workspace y compilarlo, recuerda cada vez que habras una nueva terminal o pestaña de esta misma ingresar este comando para actulizar las variables del entorno de tu workspace, siempre a la altura de la carpeta de tu workspace:
+- Después haber guardado el workspace y compilarlo, recuerda cada vez que habras una nueva terminal o pestaña de esta misma ingresar este comando para actulizar las variables del entorno de tu workspace, siempre a la altura de la carpeta de tu workspace:
 ```
 source devel/setup.bash
 ```
-
+- Luego en otra carpeta as el git clone del repositorio, luego ve a la dirección:
+```
+/ROS_listener_talker_turtle/src/
+```
+- Copia las carpetas o pacquetes y pegalos en la capeta src del workspace que creaste al inicio.
+- Después de copiar ve a la altura de la carpeta de tu workspace en ingresa:
+```
+catkin_make
+```
+Para poder compilar.
+- Recueda que cada vez que hagas un cambio importante como compilar o agregar paquetes ingresa en cada una de tus terminales:
+```
+source devel/setup.bash
+```
 - Para poder correr el proyecto en la terminal inicia el roscore.
 ```
 roscore
@@ -16,9 +30,9 @@ roscore
 ## Talker - Listener
 - Localidad de los archivos talker y listener en el proyecto
 ```
-/ROS_listener_talker_turtle/src/talker_listener/src/
-/ROS_listener_talker_turtle/src/talker_listener/src/talker.py
-/ROS_listener_talker_turtle/src/talker_listener/src/listener.py
+/nombre_de_tu_ws/src/talker_listener/src/
+/nombre_de_tu_ws/src/talker_listener/src/talker.py
+/nombre_de_tu_ws/src/talker_listener/src/listener.py
 ```
 - Para poder corre el talker y el listener habre otra pestaña de la terminal e ingresa:
 ```
@@ -38,10 +52,10 @@ Se debe ver lo siguiente:
 ## Trutle espiral
 - Localidad del archivo para poder mover la tortuga
 ```
-/ROS_listener_talker_turtle/src/turtle_mov/src/turtle_mov.py
+/nombre_de_tu_ws/src/turtle_mov/src/turtle_mov.py
 ```
 ```
-/ROS_listener_talker_turtle/src/talker_listener/src/
+/nombre_de_tu_ws/src/talker_listener/src/
 ```
 - Para poder correr la tortuga en espiral, ingresa el sigueinte comando en una nueva terminal:
 ```
