@@ -52,7 +52,6 @@ Se debe ver lo siguiente:
 ## Trutle espiral
 - Localidad del archivo para poder mover la tortuga
 ```
-/nombre_de_tu_ws/src/talker_listener/src/
 /nombre_de_tu_ws/src/turtle_mov/src/turtle_mov.py
 ```
 
