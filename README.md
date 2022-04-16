@@ -5,7 +5,7 @@ Como en este caso si bajas todo el repositirio y tratas de compilarlo este no va
 ```
 catkin_make
 ```
-- Después haber guardado el workspace y compilarlo, recuerda cada vez que habras una nueva terminal o pestaña de esta misma ingresar este comando para actulizar las variables del entorno de tu workspace, siempre a la altura de la carpeta de tu workspace:
+- Después haber guardado el workspace y compilarlo, recuerda cada vez que abras una nueva terminal o pestaña de esta misma ingresar este comando para actulizar las variables del entorno de tu workspace, siempre a la altura de la carpeta de tu workspace:
 ```
 source devel/setup.bash
 ```
@@ -13,8 +13,8 @@ source devel/setup.bash
 ```
 /ROS_listener_talker_turtle/src/
 ```
-- Copia las carpetas o pacquetes y pegalos en la capeta src del workspace que creaste al inicio.
-- Después de copiar ve a la altura de la carpeta de tu workspace en ingresa:
+- Copia las carpetas o paquetes y pégalos en la capeta src del workspace que creaste al inicio.
+- Después de copiar, ve a la altura de la carpeta de tu workspace en ingresa:
 ```
 catkin_make
 ```
@@ -38,12 +38,12 @@ roscore
 ```
 rosrun talker_listener talker
 ```
-- Luego en otra pestañan ingresa
+- Luego en otra pestaña ingresa:
 ```
 rosrun talker_listener listener
 ```
-- Si todo esta corriendo bien debes ver mensaje de Hello World en la pestaña donde corriste el listener.
-- Para verificar el funcionamiento al ingresar el digueinte comando en una nuev pestaña de la terminal:
+- Si todo esta corriendo bien debes ver mensaje de *Hello World* en la pestaña donde corriste el listener.
+- Para verificar el funcionamiento al ingresar el sigueinte comando en una nueva pestaña de la terminal:
 ```
 rqt_graph
 ```
@@ -59,15 +59,15 @@ Se debe ver lo siguiente:
 ```
 rosrun turtlesim turtlesim_node
 ```
-- Al correr esto se deberia ver algo como esto:
+- Al correr esto se debería ver algo como esto:
 ![RQT](turtle.png)
-- Después en una nueva terminal ingresa el sigueinte comando para poder correr el codigo que hicimos:
+- Después en una nueva terminal ingresa el siguiEnte comando para poder correr el código que hicimos:
 ```
 rosrun turtle_mov turtle_mov.py
 ```
 - Al correr esto la tortuga al terminar el programa debe tener este movimiento:
 ![RQT](turtle_mov.png)
-- Para poder a poner a la tortuga en su posicion inicial ingresa en una nueva terminal:
+- Para poder a poner a la tortuga en su posición inicial ingresa en una nueva terminal:
 ```
 rosservice call /reset
 ```
